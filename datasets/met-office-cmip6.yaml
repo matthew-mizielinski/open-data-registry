@@ -23,6 +23,14 @@ Description: |
  The start date and ensemble member identifier (variant_label) are encoded in the “member_id” field (as described in [Taylor et al](https://zenodo.org/records/15670624)). For example, the third ensemble member for the 1970 start date will have a member_id of `s1970-r3i1p1f2` and corresponding data will be found under “CMIP6/DCPP/MOHC/HadGEM3-GC31-MM/dcppA-hindcast/s1970-r3i1p1f2”. 
  <br><br>
  Other general information on CMIP6 data standards can be found [here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP6/). 
+
+ ## Archive length 
+
+ Simulations with start dates from 1960 through to 2018 are included and each simulation is approximately 10 years in length. 
+
+ ##Business needs 
+
+ This data can be used to evaluate the utility of decadal forecast data for both academic and commercial purposes. DCPP activities, through CMIP and the Met Office’s role as the [WMO Lead Centre for Annual-to-Decadal Climate Prediction](https://hadleyserver.metoffice.gov.uk/wmolc/https://hadleyserver.metoffice.gov.uk/wmolc/), will continue to provide similar data and updates to future CMIP exercises (CMIP6Plus, CMIP7).
  
 Documentation: "(https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast)"
 Contact: https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast
