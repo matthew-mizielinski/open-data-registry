@@ -13,7 +13,17 @@ Description: |
  <br><br>
 
  Variables included are documented on the [github wiki](https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast/wiki). This also includes a table describing associated metadata.
+ <br><br>
 
+ ## Parameters, timesteps, levels and forecast periods 
+
+ Variables are presented in the same form as published in CMIP6, with a single data variable per NetCDF4 file including coordinate data and global attribute metadata. The [github wiki](https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast/wiki#table-of-variables) describes the list of variables included along with their definition. 
+ <br><br>
+
+ The start date and ensemble member identifier (variant_label) are encoded in the “member_id” field (as described in [Taylor et al](https://zenodo.org/records/15670624)). For example, the third ensemble member for the 1970 start date will have a member_id of `s1970-r3i1p1f2` and corresponding data will be found under “CMIP6/DCPP/MOHC/HadGEM3-GC31-MM/dcppA-hindcast/s1970-r3i1p1f2”. 
+ <br><br>
+ Other general information on CMIP6 data standards can be found [here](https://wcrp-cmip.github.io/cmip7-guidance/docs/CMIP6/). 
+ 
 Documentation: "(https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast)"
 Contact: https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast
 ManagedBy: "[Met Office](https://www.metoffice.gov.uk)"
